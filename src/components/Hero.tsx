@@ -3,7 +3,7 @@ import HeroAnimationData from "../animations/HeroAnimationData.json"
 
 const Hero = () => {
     return(
-        <div className={"hero pb-5 pt-16"}>
+        <div className={"hero py-5"}>
             <div className={"flex flex-col gap-y-5 mx-auto border-b-2 border-pink pb-5"}>
                 <h1 className={"font-wix text-pink font-extrabold text-5xl"}>ВПЕРЕД!</h1>
                 <p className={"font-archivo text-pink text-lg text-center font-bold"}>
@@ -11,7 +11,7 @@ const Hero = () => {
                 </p>
             </div>
             <Lottie
-                className={"h-[24rem]"}
+                className={"h-[16rem] md:h-[32rem]"}
                 animationData={HeroAnimationData}
             />
         </div>

@@ -1,9 +1,9 @@
 import {ReactComponent as StarSvg} from "../img/star.svg";
 
 export const socialLinks: { [key: string]: string } = {
+    "Telegram": 'https://t.me/waitstop_work',
     "VK": 'https://vk.com/3waitstop',
     "GitHub": 'https://github.com/waitstop',
-    "Telegram": 'https://t.me/waitstop_work',
     "Email": 'mailto:kazakov2003931@yandex.ru'
 }
 
