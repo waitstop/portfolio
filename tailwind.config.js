@@ -5,6 +5,10 @@ module.exports = {
     colors: {
       pink: '#FEC3A6',
       yellow: '#EFE9AE',
+      orange: {
+        light: '#FEC3A6',
+        DEFAULT:'#FFAC81'
+      },
       red: '#FF928B',
       white: '#ffffff',
       black: '#000000'

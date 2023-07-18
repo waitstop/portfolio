@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Skills from "./components/Skills";
-import Contacts from "./components/Contacts";
+import {Header, Hero, Skills, Contacts, Faq, Footer} from "./components";
+
 
 function App() {
   return (
@@ -13,6 +11,8 @@ function App() {
             <Hero/>
             <Skills/>
             <Contacts/>
+            <Faq/>
+            <Footer/>
         </div>
     </div>
   )
