@@ -1,0 +1,17 @@
+/* https://www.realtimecolors.com/?colors=ebebef-030307-9699df-171d97-1521f9&fonts=Inter-Inter */
+@layer base {
+  :root {
+    --text: 16 16 20;
+    --background: 248 248 252;
+    --primary: 32 36 105;
+    --secondary: 104 111 232;
+    --accent: 6 17 234;
+  }
+  .dark {
+    --text: 235 235 239;
+    --background: 4 4 8;
+    --primary: 151 155 223;
+    --secondary: 23 30 151;
+    --accent: 21 33 249;
+  }
+}
