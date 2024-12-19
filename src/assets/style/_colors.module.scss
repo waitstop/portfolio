@@ -1,0 +1,59 @@
+// https://www.realtimecolors.com/?colors=130e1b-f8f5fa-7a4ec1-b598e2-9060dc&fonts=Inter-Inter
+
+$background: 276 33% 3%;
+$foreground: 263 32% 92%;
+$card: 276 33% 3%;
+$card-foreground: 263 32% 92%;
+$popover: 276 33% 3%;
+$popover-foreground: 263 32% 92%;
+$primary: 263 48% 47%;
+$primary-foreground: 263 32% 92%;
+$secondary: 264 56% 26%;
+$secondary-foreground: 263 32% 92%;
+$muted: 275 33% 80%;
+$muted-foreground: 263 15% 50%;
+$accent: 263 64% 38%;
+$accent-foreground: 263 32% 92%;
+$destructive: 0 62% 30%;
+$destructive-foreground: 265 100% 100%;
+$border: 276 33% 60%;
+$input: 275 33% 80%;
+$ring: 263 64% 60%;
+$sidebar-background: 240 5.9% 10%;
+$sidebar-foreground: 240 4.8% 95.9%;
+$sidebar-primary: 224.3 76.3% 48%;
+$sidebar-primary-foreground: 0 0% 100%;
+$sidebar-accent: 240 3.7% 15.9%;
+$sidebar-accent-foreground: 240 4.8% 95.9%;
+$sidebar-border: 240 3.7% 15.9%;
+$sidebar-ring: 217.2 91.2% 59.8%;
+
+:export {
+  backgroundColor: $background;
+  foregroundColor: $foreground;
+  cardBackgroundColor: $card;
+  cardForegroundColor: $card-foreground;
+  popoverBackgroundColor: $popover;
+  popoverForegroundColor: $popover-foreground;
+  primaryColor: $primary;
+  primaryForegroundColor: $primary-foreground;
+  secondaryColor: $secondary;
+  secondaryForegroundColor: $secondary-foreground;
+  mutedColor: $muted;
+  mutedForegroundColor: $muted-foreground;
+  accentColor: $accent;
+  accentForegroundColor: $accent-foreground;
+  destructiveColor: $destructive;
+  destructiveForegroundColor: $destructive-foreground;
+  borderColor: $border;
+  inputColor: $input;
+  ringColor: $ring;
+  sidebarBackgroundColor: $sidebar-background;
+  sidebarForegroundColor: $sidebar-foreground;
+  sidebarPrimaryColor: $sidebar-primary;
+  sidebarPrimaryForegroundColor: $sidebar-primary-foreground;
+  sidebarAccentColor: $sidebar-accent;
+  sidebarAccentForegroundColor: $sidebar-accent-foreground;
+  sidebarBorderColor: $sidebar-border;
+  sidebarRingColor: $sidebar-ring;
+}

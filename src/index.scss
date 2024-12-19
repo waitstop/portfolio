@@ -1,0 +1,76 @@
+@use './assets/style/colors.module' as colors;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #{colors.$background};
+    --foreground: #{colors.$foreground};
+    --card: #{colors.$card};
+    --card-foreground: #{colors.$card-foreground};
+    --popover: #{colors.$popover};
+    --popover-foreground: #{colors.$popover-foreground};
+    --primary: #{colors.$primary};
+    --primary-foreground: #{colors.$primary-foreground};
+    --secondary: #{colors.$secondary};
+    --secondary-foreground: #{colors.$secondary-foreground};
+    --muted: #{colors.$muted};
+    --muted-foreground: #{colors.$muted-foreground};
+    --accent: #{colors.$accent};
+    --accent-foreground: #{colors.$accent-foreground};
+    --destructive: #{colors.$destructive};
+    --destructive-foreground: #{colors.$destructive-foreground};
+    --border: #{colors.$border};
+    --input: #{colors.$input};
+    --ring: #{colors.$ring};
+    --sidebar-background: #{colors.$sidebar-background};
+    --sidebar-foreground: #{colors.$sidebar-foreground};
+    --sidebar-primary: #{colors.$sidebar-primary};
+    --sidebar-primary-foreground: #{colors.$sidebar-primary-foreground};
+    --sidebar-accent: #{colors.$sidebar-accent};
+    --sidebar-accent-foreground: #{colors.$sidebar-accent-foreground};
+    --sidebar-border: #{colors.$sidebar-border};
+    --sidebar-ring: #{colors.$sidebar-ring};
+    --radius: 0.5rem;
+  }
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-roboto font-bold;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  h5 {
+    @apply text-xl;
+  }
+
+  body {
+    @apply bg-background text-foreground font-montserrat;
+  }
+}
