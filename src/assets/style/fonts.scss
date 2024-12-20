@@ -65,6 +65,19 @@
     font-style: italic;
   }
 
+  // Roboto Mono
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: url('/fonts/Roboto/RobotoMono.ttf');
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: url('/fonts/Roboto/RobotoMono-Italic.ttf');
+    font-style: italic;
+  }
+
   // Montserrat normal
   @font-face {
     font-family: Montserrat;
