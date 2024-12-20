@@ -50,27 +50,7 @@
     @apply font-roboto font-bold;
   }
 
-  h1 {
-    @apply text-5xl;
-  }
-
-  h2 {
-    @apply text-4xl;
-  }
-
-  h3 {
-    @apply text-3xl;
-  }
-
-  h4 {
-    @apply text-2xl;
-  }
-
-  h5 {
-    @apply text-xl;
-  }
-
   body {
-    @apply bg-background text-foreground font-montserrat;
+    @apply bg-background font-montserrat text-foreground;
   }
 }
