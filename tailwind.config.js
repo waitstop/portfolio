@@ -5,6 +5,12 @@ export default {
   content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
   theme: {
     extend: {
+      height: {
+        screen: ['100vh', '100dvh'],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       fontSize: {
         sm: '0.750rem',
         base: '1rem',
@@ -15,8 +21,9 @@ export default {
         '5xl': '4.210rem',
       },
       fontFamily: {
-        roboto: 'Roboto',
-        montserrat: 'Montserrat',
+        roboto: ['Roboto', 'ui-sans-serif', 'sans-serif'],
+        montserrat: ['Montserrat', 'ui-sans-serif', 'sans-serif'],
+        mono: ['Roboto Mono', 'ui-monospace', 'monospace'],
       },
       borderRadius: {
         lg: 'var(--radius)',
