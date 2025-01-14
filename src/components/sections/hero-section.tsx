@@ -1,7 +1,7 @@
 import { ArrowDown } from 'lucide-react';
 import FlipWords from '@/components/ui/flip-words';
 
-export default function HeroSection(): JSX.Element {
+export default function HeroSection(): React.ReactNode {
   const words: string[] = [
     'превращающий сложное в понятное.',
     'который двигает ваш бизнес вперед.',
