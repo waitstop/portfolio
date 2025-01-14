@@ -1,11 +1,13 @@
 import HeroSection from '@/components/sections/hero-section';
-import ProjectSection from './components/sections/project-section';
+import CasesSection from './components/sections/cases-section';
+import WorkHistorySection from './components/sections/work-history-section';
 
 function App(): JSX.Element {
   return (
     <main>
       <HeroSection />
-      <ProjectSection />
+      <CasesSection />
+      <WorkHistorySection />
     </main>
   );
 }
