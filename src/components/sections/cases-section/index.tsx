@@ -66,6 +66,7 @@ export default function CasesSection(): React.ReactNode {
                   muted
                   autoPlay
                   loop
+                  playsInline
                 >
                   {videos.map(({ src, type }) => (
                     <source src={src} type={type} key={src} />
