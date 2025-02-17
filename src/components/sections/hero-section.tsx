@@ -1,4 +1,5 @@
-import { ArrowDown } from 'lucide-react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Icon } from '@iconify/react';
 import FlipWords from '@/components/ui/flip-words';
 
 export default function HeroSection(): React.ReactNode {
@@ -32,7 +33,10 @@ export default function HeroSection(): React.ReactNode {
         <br />
         <FlipWords className="text-center" words={words} duration={3000} />
       </div>
-      <ArrowDown className="animate-bounce opacity-50 md:size-12" />
+      <Icon
+        icon="mdi-arrow-down"
+        className="animate-bounce opacity-50 md:size-12"
+      />
     </section>
   );
 }
