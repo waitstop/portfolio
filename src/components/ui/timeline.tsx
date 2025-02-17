@@ -20,7 +20,7 @@ export default function Timeline({ data }: { data: TimelineEntry[] }) {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ['start 50%', 'end 100%'],
+    offset: ['start 10%', 'end 50%'],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);

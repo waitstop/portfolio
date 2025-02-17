@@ -17,6 +17,7 @@ export default function CasesSection(): React.ReactNode {
       <div className="mt-3 grid grid-cols-1 md:grid-cols-6">
         {cases.map(
           ({
+            id,
             status,
             title,
             description,
@@ -25,12 +26,12 @@ export default function CasesSection(): React.ReactNode {
             images,
             videos,
           }): React.ReactElement<CaseType> => (
-            <CaseCard className={cn('space-y-3', className)} key={title}>
+            <CaseCard className={cn('space-y-3', className)} key={id}>
               <div className="space-y-2">
                 <a
                   href={link}
                   target="_blank"
-                  className="text-xl"
+                  className={cn('text-xl', link && 'underline')}
                   rel="noreferrer"
                 >
                   {title}
@@ -42,7 +43,7 @@ export default function CasesSection(): React.ReactNode {
                 <Carousel>
                   <CarouselContent>
                     {images.map((img) => (
-                      <CarouselItem key={img} className="basis-5/6">
+                      <CarouselItem key={img} className="basis-5/6 cursor-grab">
                         <img src={img} alt="" />
                       </CarouselItem>
                     ))}
@@ -54,7 +55,7 @@ export default function CasesSection(): React.ReactNode {
                   <img
                     className="overflow-hidden rounded-md object-cover"
                     src={images[0]}
-                    alt={title}
+                    alt={id}
                   />
                 )
               )}

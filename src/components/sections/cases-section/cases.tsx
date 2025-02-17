@@ -1,9 +1,10 @@
 import { HTMLAttributes } from 'react';
 
 export type CaseType = {
+  id: string;
   status: 'open' | 'closed' | 'development';
   link?: string;
-  title: string;
+  title: string | React.ReactNode;
   images?: string[];
   videos?: { src: string; type: string }[];
   description: React.ReactNode;
@@ -12,8 +13,9 @@ export type CaseType = {
 
 export const cases: CaseType[] = [
   {
+    id: 'fp',
     status: 'development',
-    title: '"Платформа, на которой все кликается"',
+    title: 'Ф███П█о',
     description: `Новостной сайт о кино — сайт с пользовательским контентом и поддержкой серверного рендеринга на Nuxt3.`,
     videos: [
       { src: '/vid/cases/filmpro_comp.mp4', type: 'video/mp4' },
@@ -22,6 +24,7 @@ export const cases: CaseType[] = [
     className: 'col-span-1 md:col-span-6 border-b',
   },
   {
+    id: 'mvk-kinoprokat',
     status: 'open',
     title: 'МВК - кинопрокат',
     link: 'https://mvk.multvkino.ru',
@@ -32,6 +35,7 @@ export const cases: CaseType[] = [
     className: 'col-span-1 lg:col-span-4 border-r border-b',
   },
   {
+    id: 'mvk',
     status: 'closed',
     title: 'Мульт в Кино',
     description: `Веб-приложение для участия в викторине — интерактивная система, 
@@ -42,6 +46,7 @@ export const cases: CaseType[] = [
     className: 'col-span-1 lg:col-span-2 border-b',
   },
   {
+    id: 'cybersamurai',
     status: 'open',
     title: 'CyberSamurai',
     link: 'https://cybersamurai.pro/',

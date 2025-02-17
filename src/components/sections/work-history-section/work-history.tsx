@@ -5,6 +5,29 @@ export type WorkHistoryType = {
 
 export const workHistory: WorkHistoryType[] = [
   {
+    title: '2025 — н.в.',
+    content: (
+      <div className="space-y-2">
+        <h3>Frontend-разработчик</h3>
+        <a
+          className="inline-block"
+          href="https://www.cybersamurai.ru/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ВГТРК
+        </a>
+        <p>
+          Разработка frontend-части{' '}
+          <a href="https://filmpro.ru" className="underline">
+            Фильм Про
+          </a>
+          , интеграция SSR-рендеринга в рамках фреймворка Nuxt3
+        </p>
+      </div>
+    ),
+  },
+  {
     title: '2023 — 2024',
     content: (
       <div className="space-y-2">
