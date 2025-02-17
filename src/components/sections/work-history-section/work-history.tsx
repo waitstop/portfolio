@@ -18,11 +18,7 @@ export const workHistory: WorkHistoryType[] = [
           ВГТРК
         </a>
         <p>
-          Разработка frontend-части{' '}
-          <a href="https://filmpro.ru" className="underline">
-            Фильм Про
-          </a>
-          , интеграция SSR-рендеринга в рамках фреймворка Nuxt3
+          Разработка frontend-части приложения, интеграция SSR-рендеринга в рамках фреймворка Nuxt3
         </p>
       </div>
     ),
